@@ -3,7 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-    Auckland aCampus = new Auckland();
-    aCampus.printTeachers();
+    Auckland AuckCampus = new Auckland();
+    Palmy PalmCampus = new Palmy();
+    AuckCampus.printTeachers();
+    PalmCampus.printTeachers();
     }
 }
